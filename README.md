@@ -10,3 +10,10 @@ The game of course will be blowing things out of proportion a bit. 
 * 5 reprimands ends the game.
 * If you miss that chance to catch them, after they have stolen they will make a break for the door, you will then have to chase them down and punch them out.
 * Don't punch an innocent patron though, or the cops will be reprimanding you this time. Get 3 police fines and it's also game over.
+
+## Technologies Used
+
+* HTML / JavaScript
+* Node.js / npm
+* [http-sever](https://www.npmjs.com/package/http-server)
+* [Phaser 3](https://phaser.io/phaser3)

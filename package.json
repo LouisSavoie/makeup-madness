@@ -1,0 +1,24 @@
+{
+  "name": "makeup-madness",
+  "version": "1.0.0",
+  "description": "Makeup Madness is a game inspired by my impressions of my wife's experiences working in the field of health and beauty products during both the holiday season and the covid-19 pandemic.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouisSavoie/makeup-madness.git"
+  },
+  "author": "Louis Savoie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LouisSavoie/makeup-madness/issues"
+  },
+  "homepage": "https://github.com/LouisSavoie/makeup-madness#readme",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "phaser": "^3.24.1"
+  }
+}

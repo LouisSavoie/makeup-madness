@@ -15,5 +15,5 @@ The game of course will be blowing things out of proportion a bit. 
 
 * HTML / JavaScript
 * Node.js / npm
-* [http-sever](https://www.npmjs.com/package/http-server)
 * [Phaser 3](https://phaser.io/phaser3)
+* [Parcel](https://github.com/parcel-bundler/parcel#readme)

@@ -1,10 +1,13 @@
 // IMPORTS
 import Phaser from 'phaser';
 
+import TitleScreen from './scenes/titleScreen';
+
 // CONFIG
 const config = {
     width: 1280,
     height: 720,
+    //center of screen = 640, 360
     type: Phaser.AUTO,
     backgroundColor: '#000000',
     pixelArt: true,
@@ -21,5 +24,7 @@ const config = {
 const game = new Phaser.Game(config);
 
 // ADD SCENES
+game.scene.add('titleScreen', TitleScreen);
 
 // START SCENE
+game.scene.start('titleScreen');

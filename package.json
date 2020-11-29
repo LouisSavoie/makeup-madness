@@ -1,11 +1,11 @@
 {
   "name": "makeup-madness",
   "version": "1.0.0",
-  "description": "Makeup Madness is a game inspired by my impressions of my wife's experiences working in the field of health and beauty products during both the holiday season and the covid-19 pandemic.",
+  "description": "Makeup Madness is a game defending a makeup store from shoplifters by yelling at them or even punching them.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ./"
+    "start": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/LouisSavoie/makeup-madness#readme",
   "dependencies": {
-    "http-server": "^0.12.3",
-    "phaser": "^3.24.1"
+    "node-forge": "^0.10.0",
+    "parcel-bundler": "^1.12.4",
+    "phaser": "^3.24.1",
+    "webfontloader": "^1.6.28"
   }
 }
